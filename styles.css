@@ -47,3 +47,14 @@ The designs were created to the following widths:
     padding: 0px;
     box-sizing: border-box;
 }
+
+.omlette-image { 
+    width: 100%;
+ }
+
+@media only screen and (min-width: 768px) {
+   .omlette-image {
+        border-radius: 20px;
+        padding: 2rem;
+    }
+}
