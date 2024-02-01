@@ -55,11 +55,16 @@ The designs were created to the following widths:
 }
 body {
     background-color: hsl(30, 54%, 90%);
+    margin: auto 0;
 }
 
-.omlette-image { 
-    width: 100%;
- }
+article {
+    background-color: var(--white);
+    border-radius: 15px;
+    margin: 7.5rem;
+}
+
+.omlette-image { width: 100%; }
 
 
 .attribution { font-size: 11px; text-align: center; }
@@ -72,9 +77,8 @@ body {
         align-items: center;
     }
     article {
-        width: 500px;
+        width: 740px;
         padding: 2rem;
-        /* height: 100vh; */
     }
-   .omlette-image { border-radius: 20px; }
+   .omlette-image { border-radius: 10px; }
 }
