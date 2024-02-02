@@ -54,19 +54,29 @@ The designs were created to the following widths:
     box-sizing: border-box;
 }
 body {
-    background-color: hsl(30, 54%, 90%);
+    background-color: var(--eggshell);
     margin: auto 0;
 }
 
 article {
     background-color: var(--white);
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 7.5rem;
 }
 
 .omlette-image { width: 100%; }
-
-
+h1 {
+    font-size: 2.5rem;
+    margin: 2rem 0px 1rem;
+    color: var(--darkCharcoal);
+    font-weight: normal;
+}
+.youngSerifFont {
+    font-family: 'Young Serif';
+}
+p {
+    color: var(--darkGray)
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
