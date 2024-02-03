@@ -78,6 +78,20 @@ h1 {
 p {
     color: var(--darkGray)
 }
+
+.prepRoseWhite {
+    background-color: var(--roseWhite);
+    padding: 2rem;
+    margin: 2rem 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 180px;
+}
+.prepRoseWhite li::marker {
+    color: var(--primary-darkRaspberry);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
