@@ -56,6 +56,7 @@ The designs were created to the following widths:
 body {
     background-color: var(--eggshell);
     margin: auto 0;
+    font-family: 'Outfit';
 }
 
 article {
