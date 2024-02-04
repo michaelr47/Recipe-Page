@@ -62,7 +62,6 @@ body {
 article {
     background-color: var(--white);
     border-radius: 20px;
-    margin: 7.5rem;
 }
 
 .omlette-image { width: 100%; }
@@ -104,6 +103,8 @@ p {
     article {
         width: 740px;
         padding: 2rem;
+        margin: 7.5rem;
     }
-   .omlette-image { border-radius: 10px; }
+   
+   .omlette-image { border-radius: 10px;  }
 }
