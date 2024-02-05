@@ -91,6 +91,10 @@ p {
 .prepRoseWhite li::marker {
     color: var(--primary-darkRaspberry);
 }
+
+.ingredients, .instructions, .nutrition {
+    padding: 2rem;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
