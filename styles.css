@@ -95,6 +95,13 @@ p {
 .ingredients, .instructions, .nutrition {
     padding: 2rem;
 }
+
+.nutrition-items {
+    border-bottom: .5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
