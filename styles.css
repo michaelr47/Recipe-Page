@@ -91,7 +91,10 @@ p {
 .prepRoseWhite li::marker {
     color: var(--primary-darkRaspberry);
 }
-
+ol li::marker {
+    color: var(--primary-darkBrown);
+    font-weight: 600;
+}
 .ingredients, .instructions, .nutrition {
     padding: 2rem;
 }
