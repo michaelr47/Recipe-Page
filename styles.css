@@ -110,6 +110,20 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
     color: var(--darkGray);
 }
 
+.orderedList {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--darkGray);
+    
+}
+.hr {
+    height: .5px;
+    width: 100%;
+    background-color: var(--darkCharcoal);
+    margin: 0 auto;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
