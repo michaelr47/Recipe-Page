@@ -120,7 +120,7 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
 }
 .hr {
     height: .5px;
-    width: 100%;
+    width: 90%;
     background-color: var(--darkCharcoal);
     margin: 0 auto;
 }
@@ -143,4 +143,8 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
    .nutrition-items {
         justify-content: space-between;
     }
+    .hr {
+        width: 100%;
+    }
+
 }
