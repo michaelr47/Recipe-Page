@@ -67,7 +67,7 @@ article {
 .omlette-image { width: 100%; }
 h1 {
     font-size: 2.5rem;
-    margin: 2rem 0px 1rem;
+    margin: 1rem 0px 10px;
     color: var(--darkCharcoal);
     font-weight: normal;
 }
@@ -84,7 +84,7 @@ p {
 }
 .prepRoseWhite {
     background-color: var(--roseWhite);
-    padding: 2rem;
+    padding: 10px 2rem;
     margin: 2rem 0px;
     border-radius: 10px;
     display: flex;
@@ -94,6 +94,12 @@ p {
 }
 .prepRoseWhite li::marker {
     color: var(--primary-darkRaspberry);
+}
+.prepRoseWhite ul {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 ol li::marker, .ingredients li::marker, .nutrition-amount {
     color: var(--primary-darkBrown);
