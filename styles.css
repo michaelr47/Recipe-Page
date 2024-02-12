@@ -100,6 +100,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: var(--darkGray);
 }
 ol li::marker, .ingredients li::marker, .nutrition-amount {
     color: var(--primary-darkBrown);
