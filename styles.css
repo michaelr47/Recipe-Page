@@ -102,6 +102,9 @@ p {
     justify-content: space-between;
     color: var(--darkGray);
 }
+.ingredients li, .prepRoseWhite li {
+    padding-left: 1rem;
+}
 ol li::marker, .ingredients li::marker, .nutrition-amount {
     color: var(--primary-darkBrown);
     font-weight: 600;
