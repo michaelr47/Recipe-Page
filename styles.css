@@ -113,6 +113,14 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
     padding: 2rem;
 }
 
+.ingredients ul {
+    height: 20vh;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--darkGray);
+}
 .nutrition-items {
     border-bottom: .5px solid black;
     margin: 1rem;
