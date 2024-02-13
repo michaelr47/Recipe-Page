@@ -127,7 +127,7 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
     padding-bottom: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: var(--darkGray);
 }
 
@@ -138,6 +138,9 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
     justify-content: space-around;
     color: var(--darkGray);
     
+}
+.nutrition p {
+    margin: 1.5rem 0px;
 }
 .hr {
     height: .5px;
@@ -162,7 +165,10 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
    
    .omlette-image { border-radius: 10px;  }
    .nutrition-items {
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .nutrition-amount {
+        margin-right: 6rem;
     }
     .hr {
         width: 100%;
