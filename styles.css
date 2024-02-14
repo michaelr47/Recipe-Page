@@ -55,7 +55,6 @@ The designs were created to the following widths:
 }
 body {
     background-color: var(--eggshell);
-    margin: auto 0;
     font-family: 'Outfit';
 }
 
@@ -71,17 +70,14 @@ h1 {
     color: var(--darkCharcoal);
     font-weight: normal;
 }
+
 .youngSerifFont {
     font-family: 'Young Serif';
     color: var(--primary-darkBrown);
 }
-p {
-    color: var(--darkGray);
-}
+p { color: var(--darkGray); }
 
-.recipe-description, h1 {
-    padding: 10px 1rem;
-}
+.recipe-description, h1 { padding: 10px 1rem; }
 .prepRoseWhite {
     background-color: var(--roseWhite);
     padding: 10px 2rem;
@@ -92,9 +88,7 @@ p {
     justify-content: space-around;
     height: 180px;
 }
-.prepRoseWhite li::marker {
-    color: var(--primary-darkRaspberry);
-}
+.prepRoseWhite li::marker { color: var(--primary-darkRaspberry); }
 .prepRoseWhite ul {
     height: 80px;
     display: flex;
@@ -102,16 +96,13 @@ p {
     justify-content: space-between;
     color: var(--darkGray);
 }
-.ingredients li, .prepRoseWhite li {
-    padding-left: 1rem;
-}
+.ingredients li, .prepRoseWhite li { padding-left: 1rem; }
+
 ol li::marker, .ingredients li::marker, .nutrition-amount {
     color: var(--primary-darkBrown);
     font-weight: 600;
 }
-.ingredients, .instructions, .nutrition {
-    padding: 2rem;
-}
+.ingredients, .instructions, .nutrition { padding: 2rem; }
 
 .ingredients ul {
     height: 20vh;
@@ -136,12 +127,10 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: var(--darkGray);
-    
+    color: var(--darkGray);   
 }
-.nutrition p {
-    margin: 1.5rem 0px;
-}
+
+.nutrition p { margin: 1.5rem 0px; }
 .hr {
     height: .5px;
     width: 90%;
@@ -163,18 +152,10 @@ ol li::marker, .ingredients li::marker, .nutrition-amount {
         margin: 7.5rem;
     }
    
-   .omlette-image { border-radius: 10px;  }
-   .nutrition-items {
-        justify-content: space-around;
-    }
-    .nutrition-amount {
-        margin-right: 6rem;
-    }
-    .hr {
-        width: 100%;
-    }
-    .orderedList {
-        height: 300px;
-    }
+    .omlette-image { border-radius: 10px;  }
+    .nutrition-items { justify-content: space-around; }
+    .nutrition-amount { margin-right: 6rem; }
+    .hr { width: 100%; }
+    .orderedList { height: 300px;}
 
 }
