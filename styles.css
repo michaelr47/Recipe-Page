@@ -36,6 +36,7 @@ h1 {
 .youngSerifFont {
     font-family: 'Young Serif';
     color: var(--primary-darkBrown);
+    font-weight: normal;
 }
 p { color: var(--darkGray); }
 
